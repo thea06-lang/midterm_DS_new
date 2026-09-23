@@ -1,22 +1,3 @@
-/**
- * BubbleSort.java
- *
- * Standard Bubble Sort with the classic "stop early if nothing swapped"
- * check. That check is what gives Bubble Sort its O(n) best case on
- * data that's already sorted (or a bonus nearly-sorted dataset) — the
- * same effect the plan notes for Insertion Sort, so it's worth
- * mentioning in the group's comparison section.
- *
- * Rules followed (per the team plan):
- *   - Takes an int[] and a Metrics object.
- *   - Counts every comparison and every swap.
- *   - Never touches Arrays.sort() / Collections.sort().
- *   - Does not modify the caller's original array reference behavior —
- *     whoever calls this should pass in their own copy of the dataset,
- *     since sorting happens in place.
- *
- * Author: [Member 2]
- */
 public class BubbleSort implements Sorter {
 
     @Override

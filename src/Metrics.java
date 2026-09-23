@@ -1,22 +1,3 @@
-/**
- * Metrics.java
- *
- * Shared by every sorting algorithm in this project (Heap, Bubble,
- * Selection, Insertion). Each sort gets its own fresh Metrics object,
- * counts every comparison and swap it makes, and times itself with
- * this class so the final results table compares "like with like."
- *
- * Author: [Member 2]
- *
- * Usage inside a sort method:
- *
- *   Metrics metrics = new Metrics();
- *   metrics.startTimer();
- *   // ... sort the array, calling metrics.incrementComparisons()
- *   // and metrics.incrementSwaps() at the right spots ...
- *   metrics.stopTimer();
- *   System.out.println(metrics);
- */
 public class Metrics {
 
     private long comparisons;

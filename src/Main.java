@@ -1,13 +1,5 @@
 import java.io.IOException;
 
-/**
- * Runs every sort on the same datasets and prints a results table.
- *
- * Author: [Member 5]
- *
- *   java -cp bin Main          -> skips O(n^2) sorts on 1,000,000 elements
- *   java -cp bin Main --full   -> runs everything (O(n^2) sorts on 1M can take HOURS)
- */
 public class Main {
     static final int[] SIZES = {5, 1_000, 1_000_000};
     static final long SEED = 42;

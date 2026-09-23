@@ -1,10 +1,6 @@
 import java.util.Random;
 
-/**
- * Builds the test datasets. Same seed = same data for every algorithm.
- *
- * Author: [Member 4]
- */
+
 public class DataGenerator {
 
     /** Return n random ints (0 to 999,999) using java.util.Random with the given seed. */

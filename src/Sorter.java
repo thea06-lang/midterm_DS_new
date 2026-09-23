@@ -1,6 +1,3 @@
-/**
- * Every sorting algorithm implements this, so Main can run them all the same way.
- */
 public interface Sorter {
     /** Display name, e.g. "Heap Sort". */
     String name();

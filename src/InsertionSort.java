@@ -1,9 +1,3 @@
-/**
- * Insertion Sort. Shifts are movements, not swaps: m.move() counts each shift
- * and also the final write that drops the value into its place.
- *
- * Author: [Member 3]
- */
 public class InsertionSort implements Sorter {
     @Override
     public String name() { return "Insertion Sort"; }

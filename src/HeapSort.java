@@ -1,9 +1,3 @@
-/**
- * Heap Sort: build a max-heap, then repeatedly swap the root to the end
- * of the shrinking heap. O(n log n) in every case, sorts in place.
- *
- * Author: Nou Sokunthea
- */
 public class HeapSort implements Sorter {
     @Override
     public String name() { return "Heap Sort"; }
